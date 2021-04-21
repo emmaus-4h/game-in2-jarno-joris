@@ -107,9 +107,9 @@ var beweegKogel = function() {
 var beweegSpeler = function() {
 function keyPressed() {
   if (keyCode === 87) {
-    SpelerY = +5;
+    spelerY = +5;
   } else if (keyCode === 68) {
-    SpelerX = +5;
+    spelerX = +5;
   }
 }
 };
